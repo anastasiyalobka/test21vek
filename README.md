@@ -28,11 +28,6 @@ allure serve build/allure-results
 ```
 
 
-For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
-* remove @Disabled("...") annotation to run tests
-```bash
-gradle clean test
-```
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
 :blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
