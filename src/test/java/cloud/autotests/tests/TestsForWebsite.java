@@ -14,7 +14,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestsForWebsite extends TestBase {
     @Test
-    @Description("Tests fot 21vek")
     @DisplayName("Проверка наличия категории товара")
     void openCategoriesTest() {
         step("Открыть https://www.21vek.by/", () -> {
@@ -31,7 +30,6 @@ public class TestsForWebsite extends TestBase {
     }
 
     @Test
-    @Description("Tests fot 21vek")
     @DisplayName("Открытие первого популярного товара")
     void openPageWithPopular() {
         step("Открыть https://www.21vek.by/", () -> {
@@ -44,7 +42,6 @@ public class TestsForWebsite extends TestBase {
     }
 
     @Test
-    @Description("Tests fot 21vek")
     @DisplayName("Добавление товара в корзину")
     void addToBasket() {
         step("Открыть https://www.21vek.by/", () -> {
